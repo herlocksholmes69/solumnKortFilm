@@ -47,18 +47,6 @@ body {
     border-bottom-color: #9B5555;
 }
 
-.nav-logo img {
-    height: 50px;
-    width: auto;
-    display: block;
-    border-bottom: none !important;
-}
-
-.nav-logo {
-    border-bottom: none !important;
-    padding: 0 !important;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -86,15 +74,12 @@ body {
     margin-bottom: 60px;
 }
 
-.solum-logo {
-    font-size: 120px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
-    letter-spacing: 8px;
-    font-family: 'Arial', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+.solum-logo-img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
 }
 
 .premiere-info {
