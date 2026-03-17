@@ -157,6 +157,22 @@ body {
     box-shadow: 0 4px 12px rgba(155, 85, 85, 0.3);
 }
 
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.cta-signup {
+    background-color: #9B5555;
+}
+
+.cta-signup:hover {
+    background-color: #7a4444;
+}
+
 /* Info Page Styles */
 .info-page {
     background-color: #f9f7f4;
@@ -173,6 +189,18 @@ body {
     margin-bottom: 50px;
     text-align: center;
     font-weight: bold;
+}
+
+.info-image-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.info-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .info-section {
